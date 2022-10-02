@@ -1,0 +1,136 @@
+<!DOCTYPE html5>
+<html lang="pt">
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+<!-- Navbar -->
+  <div class="w3-bar w3-teal">
+    <a href="#header" class="w3-bar-item w3-button w3-text-white">Vida na Água</a>
+    <a href="#agua" class="w3-bar-item w3-button w3-text-white">Água</a>
+    <a href="#bluekeepers" class="w3-bar-item w3-button w3-text-white">Projeto Blue Keepers</a>
+    <a href="#ajudar" class="w3-bar-item w3-button w3-text-white">Como posso ajudar?</a>
+    <a href="#footer" class="w3-bar-item w3-button w3-text-white">Saiba mais</a>
+  </div>
+
+<!-- SlideShow -->
+  <div class="w3-teal">
+    <div class="w3-content w3-display-container" id="slideshow">
+      <img class="mySlides" alt="Peixe dentro de uma sacola plástica" src="images\img1.jpg" id="slideshowitem1">
+      <img class="mySlides" alt="Tartaruga levando uma sacola plástica" src="images\img2.jpeg" id="slideshowitem2">
+      <img class="mySlides" alt="Mulher de baixo do mar rodeada por lixo" src="images\img3.jpeg" id="slideshowitem3">
+      <img class="mySlides" alt="Carangueijo dentro de um copo plástico" src="images\img4.jpg" id="slideshowitem4">
+      <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" id="count">
+        <span class="w3-badge demo w3-border"></span>
+        <span class="w3-badge demo w3-border"></span>
+        <span class="w3-badge demo w3-border"></span>
+        <span class="w3-badge demo w3-border"></span>
+      </div>
+    </div>
+  </div>
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 2000);
+    }
+  </script>
+
+<!-- ODS Vida na água -->
+  <div class="w3-cell-row">
+    <div class="w3-container w3-cell w3-text-white" id="header">
+      <h2> Objetivo 14 – Vida na Água </h2>
+      <p>O ODS 14 tem como finalidade conservar e promover o uso sustentável dos oceanos, dos mares e dos recursos
+        marinhos para o desenvolvimento sustentável. Inegavelmente, os oceanos facilitam a sociedade através da provisão de 
+	alimentos, energia, transporte, turismo, etc. Além disso, regulam muitos os ecossistemas mais críticos da Terra. 
+	Podemos dizer que, os oceanos representam aproximadamente US$3 trilhões da economia mundial por ano ou 5% do PIB 
+	global. Entretanto, quase50% dos oceanos estão sendo afetados por atividades realizadas pelo homem. Sobretudo, 
+	a poluição e pesca predatória, que causa a perda de habitat e o surgimento de espécies invasoras. Ao mesmo tempo 
+	que, o lixo também ajuda na degradação dos oceanos. Foram constatados mais de 13.000 pedaços de lixo plástico 
+	em cada quilômetro quadrado. Com o propósito de enfrentar todos esses desafios, o ODS 14 foi baseado. </p>
+    </div>
+    <div class="w3-container w3-cell" id="headerimgbox">
+      <img class="w3-display-bottomright" id="headerimg" alt="ODS 14 - Vida na água" src="images\img0.png">
+    </div>
+  </div>
+
+<!-- Água -->
+  <div class="w3-display-container w3-teal" id="agua">
+    <div class="w3-container w3-margin w3-display-left" id="agua1">
+      <h2>Água</h2>
+      <p>A água é um recurso finito essencial para a manutenção da vida no planeta. Através de atividades antrópicas
+        relacionadas ao descarte indevido de efluentes, uso inadequado de substâncias químicas, extração de recursos e
+        modificação de condições físico químicas causamos a redução na qualidade da água, poluindo-a de diferentes
+        maneiras
+        e graus, causando consequências negativas tanto para os demais componentes da biosfera quanto para a própria
+        sociedade
+        humana.</p>
+    </div>
+    <div class="w3-container w3-margin w3-display-right" id="imgbox1">
+      <img class="w3-display-middle" id="elementimg1" alt="Peixe palhaço" src="images\imgb.gif">
+    </div>
+  </div>
+
+<!-- Projeto Blue Keepers -->
+  <div class="w3-display-container w3-teal" id="bluekeepers">
+    <div class="w3-container w3-margin w3-display-right" id="bluekeepers1">
+      <h2>Projeto Blue Keepers</h2>
+      <p>A Rede Brasil do Pacto Global da ONU anuncia a criação do Projeto Blue Keepers, iniciativa nacional que busca
+        a efetiva mobilização de recursos e inovação tecnológica no combate à poluição do plástico em bacias
+        hidrográficas e
+        oceanos, com o envolvimento de empresas de todos os setores, diferentes níveis de governo e da sociedade civil
+        na
+        preservação do ecossistema. A iniciativa faz parte da Década dos Oceanos, criada pela ONU em 2020, que visa a
+        conservação
+        e uso sustentável dos oceanos, mares e recursos marinhos para o desenvolvimento sustentável.</p>
+    </div>
+    <div class="w3-container w3-margin w3-display-left" id="imgbox2">
+      <img class="w3-display-middle" id="elementimg2" alt="Peixe nadando" src="images\imgc.gif">
+    </div>
+  </div>
+
+<!-- Como posso ajudar? -->
+  <div class="w3-display-container w3-teal" id="ajudar">
+    <div class="w3-container w3-margin w3-display-left" id="ajudar1">
+      <h2>Como posso ajudar?</h2>
+      <p>Para ajudar no controle da poluição marinha seria interessante diminuir o consumo de plástico, sobretudo
+        os descartáveis. Além disso, apostar na sua reciclagem é uma alternativa extremamente interessante.
+        Existem muitas outras medidas que podemos adotar para ajudar controlar e diminuir a poluição marinha, como: </p>
+      <ul>
+        <li>Não jogar lixo em locais inadequados (plásticos, bitucas de cigarro, móveis velhos);</li>
+        <li>Diminuir o consumo de energia;</li>
+        <li>Evitar o desperdício de água;</li>
+        <li>Optar por andar a pé ou de bicicleta em vez de veículos, sempre que possível;</li>
+        <li>Apoiar ONG’s voltadas à preservação dos oceanos;</li>
+        <li>Investir em produtos e itens reutilizáveis;</li>
+        <li>Escolher empresas que tenham projetos sustentáveis.</li>
+      </ul>
+    </div>
+    <div class="w3-container w3-margin w3-display-right" id="imgbox3">
+      <img class="w3-display-middle" id="elementimg3" alt="Tartaruga nadando" src="images\imgd.gif">
+    </div>
+  </div>
+
+<!-- Footer -->
+  <div class="w3-container w3-blue w3-center" id="footer">
+    <a href="https://www.ipea.gov.br/ods/ods14.html" target="_blank">
+      <h5>Saiba mais sobre os ODS</h5>
+    </a>
+    <p class="footer">© Copyright 2022</p>
+  </div>
+
+</body>
+
+</html>

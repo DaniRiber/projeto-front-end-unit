@@ -1,0 +1,64 @@
+#slideshow{
+ max-width: 900px;
+}
+
+#slideshowitem1, #slideshowitem2, #slideshowitem3, #slideshowitem4{
+ width: 900px;
+ height:480px;
+}
+
+#count{
+ width: 100%;
+}
+
+#header{
+ background-color: #1f97d4;
+}
+
+#headerimgbox{
+ position: relative;
+ width: 200px;
+}
+
+#headerimg{
+ width: 100%; 
+ height: 100%; 
+ position: absolute;
+}
+
+#agua, #bluekeepers, #ajudar{
+ height:500px;
+ 
+}
+
+#agua1, #bluekeepers1{
+ width: 55%;
+ height: 55%;
+ background-color: #00BDAA; 
+ border: solid 2px #008577;
+}
+
+#ajudar1{
+width:55%;
+height:70%;
+background-color:#00BDAA;
+border: solid 2px #008577;
+}
+
+#imgbox1, #imgbox2, #imgbox3{
+ width: 35%;
+ height: 50%;
+}
+
+#elementimg1, #elementimg2, #elementimg3{
+ width: 450px;
+ height: 400px;
+}
+
+.mySlides {
+ display: none;
+}
+
+.footer{
+ color: #cfe2e3
+}
