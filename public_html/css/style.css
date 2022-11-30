@@ -1,0 +1,54 @@
+
+#slideshow{
+  overflow: hidden;
+}
+.imgslideshow{
+ width: 100%;
+ height: 100%;
+ 
+}
+
+#count{
+ width: 100%;
+}
+
+
+#headerimgbox{
+ position: relative;
+ width: 200px;
+}
+
+#headerimg{
+ width: 100%; 
+ height: 100%; 
+ position: absolute;
+}
+
+
+.colorInfo{
+  
+ background-color: hsl(174, 100%, 37%); 
+ border: solid 2px hsl(174, 100%, 26%);
+}
+.colorInfo1{
+  background-color: hsl(200, 74%, 48%);
+  border: solid 2px hsl(200, 74%, 37%);
+}
+#imgbox1, #imgbox2, #imgbox3{
+ width: 35%;
+ height: 50%;
+}
+
+#elementimg1, #elementimg2, #elementimg3{
+ width: 450px;
+ height: 400px;
+}
+
+.mySlides {
+ display: none;
+}
+
+.footer{
+ color: #cfe2e3
+}
+
